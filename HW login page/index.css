@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Kreon', serif;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.imgbase.info/images/safe-wallpapers/anime/anime_scenery/58574_anime_scenery.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(0px);
+}
+
+.login-container {
+    height: 78vh;
+    width: 25vw;
+    background-color: rgb(255, 228, 228);
+    border-radius: 12px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.middle-text {
+    text-align: center;
+    margin-top: 7vh;
+    color: rgb(0, 0, 0);
+    
+}
+
+.user-id {
+    margin-left: 3vw;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+
+#forgot {
+    text-align: right;
+    margin-right: 3vw;
+}
+
+input {
+    width: 19vw;
+    height: 3vh;
+    margin-left: 3vw;
+    border: 0;
+    background-color: rgb(255, 136, 136);
+    border-radius: 25px;
+    
+}
+
+#login-btn {
+    width: 19vw;
+    height: 5.5vh;
+    margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    border-radius: 25px;
+    margin-top: 5vh;
+    margin-bottom: 6vh;
+}
+
+#login-btn:hover {
+    cursor: pointer;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 12vw;
+    margin-left: 6.5vw;
+    margin-top: 3vh;
+}
+
+.icon {
+    height: 5vh;
+    width: 5vh;
+}
